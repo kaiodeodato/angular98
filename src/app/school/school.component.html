@@ -1,0 +1,5 @@
+<p [ngStyle]="{ 'background-color' : getStatusColor() }"
+    [ngClass]="{ 'aberta' : schoolSituation === 'aberta' }"
+>
+    Escola de Id {{ schoolId }} e de nome {{ getSchoolName() }}
+</p>
